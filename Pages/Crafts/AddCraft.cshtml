@@ -1,0 +1,37 @@
+﻿@page
+@model KhumaloCraft.Pages.Crafts.AddCraftModel
+@{
+    ViewData["Title"] = "Upload Craft Image";
+}
+
+<p>
+    <a asp-page="/Crafts/Index">Back to Crafts</a>
+</p>
+<br />
+<div class="row">
+    <div class="column">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-3">
+                <label asp-for="CraftData.CraftName" class="col-form-label"></label>
+                <input asp-for="CraftData.CraftName" class="form-control" /> 
+                <span asp-validation-for="CraftData.CraftName" class="text-danger"></span>
+            </div>
+            <div action="mb-3">
+                <label asp-for="CraftData.ImageFile" class="col-form-label"></label>
+                <input type="file" asp-for="CraftData.ImageFile" class="form-control" />
+                <span asp-validation-for="CraftData.ImageFile" class="text-danger"></span>
+            </div>
+            <div action="mb-3">
+                <label asp-for="CraftData.CraftCost" class="col-form-label"></label>
+                <input asp-for="CraftData.CraftCost" class="form-control" />
+                <span asp-validation-for="CraftData.CraftCost" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="mb-3">
+                <input type="submit" value="Create" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
+

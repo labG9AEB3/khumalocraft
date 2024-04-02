@@ -1,0 +1,40 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2024-04-01T11:52:05.5179529Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "ce99292b-4c5b-4bbc-9b8c-8f6bca216f96"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "st10458676"
+    },
+    "kumalocrafts.resourceName": {
+      "Name": "kumalocrafts.resourceName",
+      "Type": null,
+      "Value": "kumalocrafts"
+    },
+    "kumalocrafts.resourceGroupLocation": {
+      "Name": "kumalocrafts.resourceGroupLocation",
+      "Type": null,
+      "Value": "southafricanorth"
+    },
+    "kumalocrafts.subscriptionId": {
+      "Name": "kumalocrafts.subscriptionId",
+      "Type": "subscription",
+      "Value": "ce99292b-4c5b-4bbc-9b8c-8f6bca216f96"
+    },
+    "kumalocrafts.resourceGroupName": {
+      "Name": "kumalocrafts.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "st10458676"
+    }
+  }
+}

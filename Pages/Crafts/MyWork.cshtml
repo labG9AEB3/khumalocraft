@@ -1,0 +1,23 @@
+﻿@page
+@model KhumaloCraft.Pages.Crafts.MyWorkModel
+@{
+}
+<div class="text-center">
+    <h1 class="display-4">Khumalo Crafts Emporium</h1>
+</div>
+<br />
+<table class="table">
+    <tbody>
+        <div class="row">
+            @foreach (var item in Model.CraftDetails)
+            {
+                <div class="column">
+                    <p>@item.CraftName</p>
+                    <img src="data:image/jpg;base64,@item.CraftData" width="100%" height="80%" />
+                    <p>@item.CraftCost</p>
+                </div>
+            }
+        </div>
+    </tbody>
+</table>
+
